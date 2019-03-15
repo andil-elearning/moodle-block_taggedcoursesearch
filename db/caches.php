@@ -22,6 +22,8 @@
  * @copyright  2018 Arnaud Trouvé <arnaud.trouve@andil.fr>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+defined('MOODLE_INTERNAL') || die();
+
 $definitions = [
     'filter' => [
         'mode' => cache_store::MODE_SESSION
