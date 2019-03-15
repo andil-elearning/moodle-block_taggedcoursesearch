@@ -114,8 +114,6 @@ class courses_view implements renderable, templatable {
             );
 
             $courseprogress = null;
-
-
             if (isset($this->coursesprogress[$course->id])) {
                 $courseprogress = $this->coursesprogress[$course->id]['progress'];
                 $exportedcourse->hasprogress = !is_null($courseprogress);
@@ -130,7 +128,7 @@ class courses_view implements renderable, templatable {
                 $coursesview['pages'][$inprogresspages]['page'] = $inprogresspages + 1;
                 $coursesview['haspages'] = true;
                 $nbcourses++;
-            }
+        }
 
         // Build courses view paging bar structure.
         $quantpages = ceil(count($this->courses) / $this::COURSES_PER_PAGE);
