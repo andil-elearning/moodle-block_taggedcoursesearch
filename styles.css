@@ -1,0 +1,386 @@
+.block_taggedcoursesearch  .taggedcoursesearchimg {
+    height: 150px;
+}
+.block_taggedcoursesearch  .taggedcoursesearchimg.courseimage {
+    background-position: center;
+    background-size: cover;
+}
+.block_taggedcoursesearch .empty-placeholder-image-sm {
+    height: 50px;
+}
+.block_taggedcoursesearch .empty-placeholder-image-lg {
+    height: 125px;
+}
+.block_taggedcoursesearch .content-centred {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block_taggedcoursesearch #pb-taggedcoursesearch .page-link:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.block_taggedcoursesearch .progress-chart-container {
+    height: 70px;
+    width: 70px;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-clip: padding-box;
+    border: 15px solid #dee2e6;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-text {
+    position: absolute;
+    top: 50%;
+    /*rtl:ignore*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #dee2e6;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-text.has-percent {
+    color: #ff7518;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    height: 70px;
+    width: 70px;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle {
+    stroke-width: 15px;
+    stroke: #ff7518;
+    fill: none;
+    stroke-dasharray: 173;
+    stroke-dashoffset: 173;
+    transform: rotate(-90deg);
+    transform-origin: center center;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-1 {
+    stroke-dashoffset: 171.27;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-2 {
+    stroke-dashoffset: 169.54;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-3 {
+    stroke-dashoffset: 167.81;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-4 {
+    stroke-dashoffset: 166.08;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-5 {
+    stroke-dashoffset: 164.35;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-6 {
+    stroke-dashoffset: 162.62;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-7 {
+    stroke-dashoffset: 160.89;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-8 {
+    stroke-dashoffset: 159.16;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-9 {
+    stroke-dashoffset: 157.43;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-10 {
+    stroke-dashoffset: 155.7;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-11 {
+    stroke-dashoffset: 153.97;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-12 {
+    stroke-dashoffset: 152.24;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-13 {
+    stroke-dashoffset: 150.51;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-14 {
+    stroke-dashoffset: 148.78;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-15 {
+    stroke-dashoffset: 147.05;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-16 {
+    stroke-dashoffset: 145.32;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-17 {
+    stroke-dashoffset: 143.59;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-18 {
+    stroke-dashoffset: 141.86;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-19 {
+    stroke-dashoffset: 140.13;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-20 {
+    stroke-dashoffset: 138.4;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-21 {
+    stroke-dashoffset: 136.67;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-22 {
+    stroke-dashoffset: 134.94;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-23 {
+    stroke-dashoffset: 133.21;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-24 {
+    stroke-dashoffset: 131.48;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-25 {
+    stroke-dashoffset: 129.75;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-26 {
+    stroke-dashoffset: 128.02;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-27 {
+    stroke-dashoffset: 126.29;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-28 {
+    stroke-dashoffset: 124.56;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-29 {
+    stroke-dashoffset: 122.83;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-30 {
+    stroke-dashoffset: 121.1;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-31 {
+    stroke-dashoffset: 119.37;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-32 {
+    stroke-dashoffset: 117.64;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-33 {
+    stroke-dashoffset: 115.91;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-34 {
+    stroke-dashoffset: 114.18;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-35 {
+    stroke-dashoffset: 112.45;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-36 {
+    stroke-dashoffset: 110.72;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-37 {
+    stroke-dashoffset: 108.99;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-38 {
+    stroke-dashoffset: 107.26;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-39 {
+    stroke-dashoffset: 105.53;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-40 {
+    stroke-dashoffset: 103.8;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-41 {
+    stroke-dashoffset: 102.07;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-42 {
+    stroke-dashoffset: 100.34;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-43 {
+    stroke-dashoffset: 98.61;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-44 {
+    stroke-dashoffset: 96.88;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-45 {
+    stroke-dashoffset: 95.15;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-46 {
+    stroke-dashoffset: 93.42;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-47 {
+    stroke-dashoffset: 91.69;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-48 {
+    stroke-dashoffset: 89.96;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-49 {
+    stroke-dashoffset: 88.23;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-50 {
+    stroke-dashoffset: 86.5;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-51 {
+    stroke-dashoffset: 84.77;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-52 {
+    stroke-dashoffset: 83.04;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-53 {
+    stroke-dashoffset: 81.31;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-54 {
+    stroke-dashoffset: 79.58;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-55 {
+    stroke-dashoffset: 77.85;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-56 {
+    stroke-dashoffset: 76.12;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-57 {
+    stroke-dashoffset: 74.39;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-58 {
+    stroke-dashoffset: 72.66;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-59 {
+    stroke-dashoffset: 70.93;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-60 {
+    stroke-dashoffset: 69.2;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-61 {
+    stroke-dashoffset: 67.47;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-62 {
+    stroke-dashoffset: 65.74;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-63 {
+    stroke-dashoffset: 64.01;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-64 {
+    stroke-dashoffset: 62.28;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-65 {
+    stroke-dashoffset: 60.55;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-66 {
+    stroke-dashoffset: 58.82;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-67 {
+    stroke-dashoffset: 57.09;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-68 {
+    stroke-dashoffset: 55.36;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-69 {
+    stroke-dashoffset: 53.63;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-70 {
+    stroke-dashoffset: 51.9;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-71 {
+    stroke-dashoffset: 50.17;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-72 {
+    stroke-dashoffset: 48.44;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-73 {
+    stroke-dashoffset: 46.71;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-74 {
+    stroke-dashoffset: 44.98;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-75 {
+    stroke-dashoffset: 43.25;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-76 {
+    stroke-dashoffset: 41.52;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-77 {
+    stroke-dashoffset: 39.79;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-78 {
+    stroke-dashoffset: 38.06;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-79 {
+    stroke-dashoffset: 36.33;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-80 {
+    stroke-dashoffset: 34.6;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-81 {
+    stroke-dashoffset: 32.87;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-82 {
+    stroke-dashoffset: 31.14;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-83 {
+    stroke-dashoffset: 29.41;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-84 {
+    stroke-dashoffset: 27.68;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-85 {
+    stroke-dashoffset: 25.95;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-86 {
+    stroke-dashoffset: 24.22;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-87 {
+    stroke-dashoffset: 22.49;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-88 {
+    stroke-dashoffset: 20.76;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-89 {
+    stroke-dashoffset: 19.03;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-90 {
+    stroke-dashoffset: 17.3;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-91 {
+    stroke-dashoffset: 15.57;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-92 {
+    stroke-dashoffset: 13.84;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-93 {
+    stroke-dashoffset: 12.11;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-94 {
+    stroke-dashoffset: 10.38;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-95 {
+    stroke-dashoffset: 8.65;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-96 {
+    stroke-dashoffset: 6.92;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-97 {
+    stroke-dashoffset: 5.19;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-98 {
+    stroke-dashoffset: 3.46;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-99 {
+    stroke-dashoffset: 1.73;
+}
+.block_taggedcoursesearch .progress-chart-container .progress-doughnut .progress-indicator svg .circle.percent-100 {
+    stroke-dashoffset: 0;
+}
+.block_taggedcoursesearch .progress-chart-container .no-progress {
+    height: 70px;
+    width: 70px;
+    background-color: #dee2e6;
+    border-radius: 50%;
+    position: relative;
+}
+.block_taggedcoursesearch .progress-chart-container .no-progress .icon {
+    position: absolute;
+    top: 50%;
+    /*rtl:ignore*/
+    left: 50%;
+    margin: 0;
+    transform: translate(-63%, -50%);
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    font-size: 45px;
+}
