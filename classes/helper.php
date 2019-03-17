@@ -44,7 +44,7 @@ class helper {
 
     /**
      * Store filter criteria in cache and try to save it into user preferences
-     * @param $criteria
+     * @param array $criteria
      * @return bool|string
      */
     public static function set_filter_criteria($criteria) {
@@ -75,7 +75,8 @@ class helper {
     }
 
     /**
-     * @param $filter
+     * Get courses corresponding to the given filter
+     * @param \stdClass $filter
      * @return array
      */
     public static function get_courses($filter) {
