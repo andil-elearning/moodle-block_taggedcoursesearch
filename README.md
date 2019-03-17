@@ -1,14 +1,20 @@
 # Tagged Course Search
 
-This block is a fork from Moodle 3.5 course overview which allow users to search courses by tag.  
+This block - based on Moodle 3.5 course overview - which allows users to search courses by tag.  
   
-Autocomplete use standard tags defined in the collection associated with courses tag area.  
-Please see https://docs.moodle.org/en/Managing_tags for further informations on tags management. 
+Autocomplete and search are done using tags defined as "standard" in the collection associated with courses tag area.  
+Please see https://docs.moodle.org/en/Managing_tags for further information on tags management. 
 
 ## Installation
 
 Install the plugin, like any other plugin.  
 See http://docs.moodle.org/en/Installing_plugins for details on installing Moodle plugins.
+
+## Usage example
+
+* Tag courses in their settings
+* Administrator/Manager validate which tags are searchable by defining them as "standard"
+* Add this block on student's dashboard
 
 ## Useful links
 
