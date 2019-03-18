@@ -1,6 +1,6 @@
 # Tagged Course Search
 
-This block - based on Moodle 3.5 course overview - which allows users to search courses by tag.  
+This block - based on Moodle 3.5 course overview - allows users to search courses by tag.  
   
 Autocomplete and search are done using tags defined as "standard" in the collection associated with courses tag area.  
 Please see https://docs.moodle.org/en/Managing_tags for further information on tags management. 
