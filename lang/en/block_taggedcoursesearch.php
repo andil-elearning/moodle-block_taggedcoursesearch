@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['cachedef_filter'] = 'Search criteria and results';
 $string['nocourses'] = 'No courses';
 $string['pluginname'] = 'Tagged Course Search';
 $string['privacy:metadata'] = 'The Tagged Course search block only shows data stored in other locations.';

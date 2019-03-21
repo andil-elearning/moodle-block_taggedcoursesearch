@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['cachedef_filter'] = 'Critères et résultats de recherche';
 $string['nocourses'] = 'Aucun cours';
 $string['pluginname'] = 'Recherche de cours par tag';
 $string['privacy:metadata'] = 'Le block de recherche de cours par tag affiche seulement des données enregistrées à d\'autres endroits';
