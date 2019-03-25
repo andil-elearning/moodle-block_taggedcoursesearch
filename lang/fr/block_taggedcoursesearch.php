@@ -32,4 +32,6 @@ $string['privacy:metadata'] = 'Le block de recherche de cours par tag affiche se
 $string['search_form:tags:label'] = "Tags";
 $string['user_preference:error:toolong'] = "Le filtre est trop complexe pour être sauvegardé";
 $string['tags'] = "Tags";
+$string['taggedcoursesearch:addinstance'] = 'Ajouter un block Recherche de cours par tag';
+$string['taggedcoursesearch:myaddinstance'] = 'Ajouter un block Recherche de cours par tag au tableau de bord';
 $string['privacy:metadata:filter_criteria'] = 'Enregistre la dernière recherche effectuée par un utilisateur dans le block de recherche de cours par tag.';
