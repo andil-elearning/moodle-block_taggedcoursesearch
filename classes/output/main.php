@@ -70,12 +70,12 @@ class main implements renderable, templatable {
      * @return stdClass
      */
     public function export_for_template(renderer_base $output) {
-        global $OUTPUT, $USER;
+        global $USER;
         $coursesprogress = [];
         $errors = "";
         if ($this->searchform->get_data()) {
             if (($res = helper::set_filter_criteria($this->searchform->get_data()->tags)) !== true) {
-                $errors .= $OUTPUT->notification($res, \core\output\notification::NOTIFY_WARNING);
+                $errors .= $output->render(new \core\output\notification($res, \core\output\notification::NOTIFY_WARNING));
             }
         }
         $filter = new \stdClass();
