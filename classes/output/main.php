@@ -70,9 +70,19 @@ class main implements renderable, templatable {
      * @return stdClass
      */
     public function export_for_template(renderer_base $output) {
-        global $USER;
+        global $CFG, $USER;
         $coursesprogress = [];
         $errors = "";
+
+        // Return directly if tags are disable.
+        if (empty($CFG->usetags)) {
+            return [
+                'errors' => $output->render(
+                    new \core\output\notification(get_string('tagsaredisabled', 'tag'), \core\output\notification::NOTIFY_ERROR)
+                )
+            ];
+        }
+
         if ($this->searchform->get_data()) {
             if (($res = helper::set_filter_criteria($this->searchform->get_data()->tags)) !== true) {
                 $errors .= $output->render(new \core\output\notification($res, \core\output\notification::NOTIFY_WARNING));
