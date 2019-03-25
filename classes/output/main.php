@@ -31,15 +31,11 @@ use renderer_base;
 use templatable;
 use core_completion\progress;
 use cache;
-use course_in_list;
-use core_tag_area;
-use core_tag_tag;
 use completion_info;
 use block_taggedcoursesearch\helper;
 
 require_once($CFG->dirroot . '/blocks/taggedcoursesearch/lib.php');
 require_once($CFG->libdir . '/completionlib.php');
-require_once($CFG->libdir . '/coursecatlib.php');
 
 /**
  * Class containing data for Tagged course search block.
