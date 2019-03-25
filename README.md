@@ -1,4 +1,4 @@
-# Tagged Course Search
+# Tagged course search
 
 This block - based on Moodle 3.5 course overview - allows users to search courses by tag.  
   

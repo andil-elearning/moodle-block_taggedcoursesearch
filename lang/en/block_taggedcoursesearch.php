@@ -27,11 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['cachedef_filter'] = 'Search criteria and results';
 $string['nocourses'] = 'No courses';
-$string['pluginname'] = 'Tagged Course Search';
-$string['privacy:metadata'] = 'The Tagged Course search block only shows data stored in other locations.';
+$string['pluginname'] = 'Tagged course search';
+$string['privacy:metadata'] = 'The Tagged course search block only shows data stored in other locations.';
 $string['search_form:tags:label'] = "Tags";
 $string['user_preference:error:toolong'] = "Filter too complex to be saved.";
 $string['tags'] = "Tags";
 $string['taggedcoursesearch:addinstance'] = 'Add a new Tagged course search block';
 $string['taggedcoursesearch:myaddinstance'] = 'Add a new Tagged course search block to Dashboard';
-$string['privacy:metadata:filter_criteria'] = 'This stores the last search done by the user on the Tagged Course Search block.';
+$string['privacy:metadata:filter_criteria'] = 'This stores the last search done by the user on the Tagged course search block.';

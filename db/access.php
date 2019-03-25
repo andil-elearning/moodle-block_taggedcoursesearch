@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Capabilities for the Tagged Course Search block.
+ * Capabilities for the Tagged course search block.
  *
  * @package    block_taggedcoursesearch
  * @copyright  2018 Arnaud Trouvé <arnaud.trouve@andil.fr>

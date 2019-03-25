@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Class containing data for Tagged Course Search block.
+ * Class containing data for Tagged course search block.
  *
  * @package     block_taggedcoursesearch
  * @copyright   2018 Arnaud Trouvé <arnaud.trouve@andil.fr>
@@ -42,7 +42,7 @@ require_once($CFG->libdir . '/completionlib.php');
 require_once($CFG->libdir . '/coursecatlib.php');
 
 /**
- * Class containing data for Tagged Course Search block.
+ * Class containing data for Tagged course search block.
  *
  * @copyright   2018 Arnaud Trouvé <arnaud.trouve@andil.fr>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later

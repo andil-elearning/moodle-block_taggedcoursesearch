@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Class containing data for courses view in the Tagged Course Search block.
+ * Class containing data for courses view in the Tagged course search block.
  *
  * @package    block_taggedcoursesearch
  * @copyright  2018 Arnaud Trouvé <arnaud.trouve@andil.fr>
