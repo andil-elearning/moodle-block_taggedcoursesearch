@@ -18,7 +18,8 @@
  *
  * @module     block_taggedcoursesearch/paging_content
  * @package    block_taggedcoursesearch
- * @copyright  2016 Ryan Wyllie <ryan@moodle.com>
+ * @copyright  2019 Arnaud Trouvé <arnaud.trouve@andil.fr>
+ * @copyright  based on work by 2016 Ryan Wyllie <ryan@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/templates', 'block_taggedcoursesearch/paging_bar'],
