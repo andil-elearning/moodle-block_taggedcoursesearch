@@ -1,3 +1,7 @@
+### 1.0.2
+
+* Move FR language pack to AMOS
+
 ### 1.0.1
 
 * Add check for `$CFG->usetags`. Print an error message if tags are disabled
