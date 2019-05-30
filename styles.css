@@ -384,3 +384,7 @@
     width: 45px;
     font-size: 45px;
 }
+.block_taggedcoursesearch .card-deck .card.mb-3.courses-view-course-item{
+    flex: inherit;!important;
+    width: calc(50% - .5rem);!important;
+}
