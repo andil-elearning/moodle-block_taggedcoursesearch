@@ -1,3 +1,8 @@
+### 1.1.0
+
+* Fix card display for Moodle 3.6 and onward
+* Replace deprecated coursecat lib usage
+
 ### 1.0.2
 
 * Move FR language pack to AMOS
