@@ -94,7 +94,7 @@ class helper {
             if (!empty($tagsql)) {
                 $rs = $DB->get_recordset_sql("SELECT c.* FROM {course} c " . $tagsql);
                 foreach ($rs as $course) {
-                    $courses[$course->id] = new course_in_list($course);
+                    $courses[$course->id] = new \core_course_list_element($course);
                 }
                 $rs->close();
             }
