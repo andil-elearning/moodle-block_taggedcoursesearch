@@ -6,6 +6,9 @@ sudo: true
 # ORIGINAL:
 # sudo: false
 
+services:
+  - mysql
+
 # Disable Travis notifications
 notifications:
   email: false
