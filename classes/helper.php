@@ -83,11 +83,16 @@ class helper {
         if ($filter && !empty($filter->tags)) {
             $tagsql = "";
             $coursetagcollection = core_tag_area::get_collection('core', 'course');
+            $tagids = array();
             foreach ($filter->tags as $tagname) {
                 if (!$tag = core_tag_tag::get_by_name($coursetagcollection, $tagname, '*')) {
                     continue;
                 }
-                $tagsql .= " INNER JOIN {tag_instance} ti" . $tag->id . " ON c.id=ti".$tag->id.".itemid AND ti" . $tag->id . ".tagid=" . $tag->id;
+                // extra condition to avoid duplication of tags which led to SQL error
+                if (!in_array($tag->id, $tagids)) {
+                    $tagids[] = $tag->id;
+                    $tagsql .= " INNER JOIN {tag_instance} ti" . $tag->id . " ON c.id=ti".$tag->id.".itemid AND ti" . $tag->id . ".tagid=" . $tag->id;
+                }
             }
             if (!empty($tagsql)) {
                 $rs = $DB->get_recordset_sql("SELECT c.* FROM {course} c " . $tagsql);
