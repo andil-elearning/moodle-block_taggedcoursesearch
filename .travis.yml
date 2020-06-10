@@ -1,24 +1,16 @@
 language: php
 
-# Workaround for fixing that Selenium server is not running and therefore javascript Behat tests are not working:
-# https://github.com/moodlerooms/moodle-plugin-ci/issues/70
-sudo: true
-# ORIGINAL:
-# sudo: false
-
 services:
   - mysql
+  - postgresql
+  - docker
 
 # Disable Travis notifications
 notifications:
   email: false
 
 addons:
-  firefox: "47.0.1"
   postgresql: "9.4"
-  apt:
-    packages:
-      - openjdk-8-jre-headless
 
 cache:
   directories:
@@ -54,6 +46,7 @@ before_install:
   - cd ../..
   - composer create-project -n --no-dev --prefer-dist blackboard-open-source/moodle-plugin-ci ci ^2
   - export PATH="$(cd ci/bin; pwd):$(cd ci/vendor/bin; pwd):$PATH"
+  - docker run -d -p 127.0.0.1:4444:4444 --net=host -v /dev/shm:/dev/shm selenium/standalone-firefox:3
 
 install:
   - moodle-plugin-ci install
