@@ -24,8 +24,6 @@
 namespace block_taggedcoursesearch;
 defined('MOODLE_INTERNAL') || die();
 
-require_once($CFG->dirroot . '/cache/lib.php');
-
 use block_taggedcoursesearch\form\search_form;
 use cache;
 use core_tag_area;
