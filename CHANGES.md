@@ -1,3 +1,8 @@
+### 1.1.1
+
+* Remove legacy lib.php require to ensure moodle 4.5 compatibility
+* Prevent SQL error on duplicated tag selection. Thanks to Andriy Semenets (@semteacher)
+
 ### 1.1.0
 
 * Fix card display for Moodle 3.6 and onward
