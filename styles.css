@@ -380,9 +380,9 @@
     margin: 0;
     transform: translate(-63%, -50%);
     color: #fff;
-    height: 45px;
-    width: 45px;
-    font-size: 45px;
+    height: 35px;
+    width: 35px;
+    font-size: 35px;
 }
 .block_taggedcoursesearch .card-deck .card.mb-3.courses-view-course-item{
     flex: inherit;!important;
