@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'block_taggedcoursesearch';
-$plugin->release   = '1.1.1';
-$plugin->version   = 2024100700;
-$plugin->requires  = 2018120300;
+$plugin->release   = '2.0.0';
+$plugin->version   = 2025041700;
+$plugin->requires  = 2024100700;
 $plugin->maturity  = MATURITY_STABLE;

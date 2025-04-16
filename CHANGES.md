@@ -1,3 +1,8 @@
+### 2.0.0
+
+* Moodle 5.x compatibility
+* Dropping support for Moodle prior to 4.5
+
 ### 1.1.1
 
 * Remove legacy lib.php require to ensure moodle 4.5 compatibility
